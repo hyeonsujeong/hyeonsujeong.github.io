@@ -1,0 +1,125 @@
+/*profile section*/
+.image-thumbnail{
+    width: 100%;
+    align-content: center;
+    height: auto;
+    margin-top: 15%;
+}
+
+.badge{
+    background-color: rgb(246, 176, 54);
+    color: black;
+}
+
+/*service title section*/
+.service-title
+h3{
+    margin-bottom: 0px;
+}
+
+/*service content section*/
+.yellow{
+    color: rgb(246, 176, 54);
+}
+
+/*jumbotron*/
+.jumbotron{
+    background: none;
+    padding: 32px;
+}
+
+.jumbotron
+h1{
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.jumbotron
+hr{
+    background-color: white;
+}
+
+.explanation{
+    text-align: center;
+}
+
+.example{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.row
+h3{
+    font-weight: bold;
+}
+
+/*basic setting*/
+/*grid*/
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    height: 100%;
+}
+
+.profile{
+    grid-column: 1;
+    grid-row: 1 / 17;
+    padding: 10%;
+}
+
+.service-title{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: rgb(246, 176, 54);
+    padding: 1%;
+    font-family: 'Kaushan Script', cursive;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.service-content{
+    grid-column: 2 / 4;
+    grid-row: 1 / 17;
+    background-image: url("pic/bg.jpg");
+    padding: 3%;
+    padding-top: 7.5%;
+    color: white;
+}
+
+/*font*/
+h2{
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*link*/
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    text-decoration: none;
+    color: gray;
+}
+  
+a:active {
+    text-decoration: none;
+    color: black;
+}
