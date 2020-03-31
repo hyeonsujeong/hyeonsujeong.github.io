@@ -15,6 +15,7 @@ a:hover{
 }
 
 .card {
+    width: 80%;
     margin: 0 auto;
     background-color: lavender;
 }
@@ -23,11 +24,13 @@ a:hover{
     background-color: white;
 }
 .btn-group{
-    display:flex;
+    display: flex;
     align-items:center;
+    border: lavender;
 }
 .btn{
     background-color: lavender;
+    border: lavender;
 }
 .btn:hover{
     background-color: white;
